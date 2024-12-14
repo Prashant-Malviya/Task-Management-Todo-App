@@ -25,7 +25,9 @@ const App = () => {
 
   const fetchTasks = async () => {
     const response = await axios.get(api_url);
-    const data = response;
+    const data = response.data;
+    console.log("data",data);
+    
     const initialTasks = data.slice(0, 20).map((task) => ({
       id: task.id,
       title: task.title,
@@ -35,6 +37,8 @@ const App = () => {
     setTasks(initialTasks);
   };
 
+  // console.log('tasks',tasks);
+  
   // Save tasks to localStorage whenever they change
   useEffect(() => {
     if (tasks.length > 0) {
