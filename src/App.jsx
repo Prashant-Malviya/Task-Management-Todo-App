@@ -37,7 +37,6 @@ const App = () => {
     setTasks(initialTasks);
   };
 
-  // console.log('tasks',tasks);
   
   // Save tasks to localStorage whenever they change
   useEffect(() => {
