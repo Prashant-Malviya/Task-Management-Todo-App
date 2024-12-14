@@ -2,6 +2,8 @@
 
 This project is a simple **Task Manager** application built using **React.js**. The app allows users to manage tasks by adding, editing, deleting, and filtering tasks based on their status. The application features a responsive user interface to ensure usability across devices of different screen sizes.
 
+## Deployed Link:- https://task-manager-by-prashant-malviya.netlify.app/
+
 ---
 
 ## Features
